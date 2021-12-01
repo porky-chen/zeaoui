@@ -1,7 +1,7 @@
 {
   "name": "zeaoui",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "前端Vue组件库，基于 Element-UI 二次封装",
   "author": "Zeao",
   "license": "ZEAO",
   "private": false,
@@ -26,13 +26,12 @@
   ],
   "homepage": "",
   "bugs": {
-    "url": "",
-    "email": ""
+    "url": "https://github.com/porky-chen/zeaoui",
+    "email": "czhao0210@163.com"
   },
   "repository": {
-    "type": "",
-    "url": "",
-    "directory": ""
+    "type": "git",
+    "url": "https://github.com/porky-chen/zeaoui"
   },
   "dependencies": {
     "element-ui": "^2.15.6",

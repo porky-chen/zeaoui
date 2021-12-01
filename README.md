@@ -1,10 +1,19 @@
 # zeaoui
 
-> A Vue.js project
+> 前端Vue组件库，基于 Element-UI 二次封装
 
-## Build Setup
+## 安装方式
+
+```
+npm install zeaoui --save
+```
+
+## 运行模式
 
 ``` bash
+#clone code
+git clone https://github.com/porky-chen/zeaoui.git
+
 # install dependencies
 npm install
 
@@ -26,5 +35,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
