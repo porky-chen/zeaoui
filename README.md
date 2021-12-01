@@ -35,3 +35,23 @@ npm run e2e
 # run all tests
 npm test
 ```
+
+## 文件目录说明
+
+###########目录结构描述
+├── Readme.md                   // help   
+├── src                         // 组件代码src   
+   ├── main.js                 // 组件入口    
+   ├── assets                  // 资源文件夹 如果组件没有其对应的文件夹 资源放这个文件夹下
+   ├── components              // 组件代码文件夹  组件的代码放这个文件夹下  
+        ├── index.js           // 打包入口  
+   ├── App.vue                 // vue项目源
+├── .gitignore
+├── config                     // webpack.config.js配置文件
+├── build                      // webpack.config.js配置文件
+├── static                     // 静态文件
+├── test                       // 测试文件
+├── .eslintrc.js         
+├── node_modules               // 加载包
+├── package.json               // 包依赖项
+├── indexhtml                  // web静态资源加载      
