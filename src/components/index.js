@@ -1,5 +1,5 @@
 // 导入封装组件
-import ZButton from './Z-Button'
+import ZButton from './z-button/z-button.vue'
 
 const components = {
     // 通过install来安转组件

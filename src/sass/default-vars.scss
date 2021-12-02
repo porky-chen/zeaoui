@@ -1,0 +1,113 @@
+// Color 颜色选择器
+
+// 产品主色调/按钮色/ 选中背景/选中
+$color-primary:#3B86FF;
+// 辅助色-成功提示
+$color-success:#74D13D;
+// 辅助色-信息警告/警示
+$color-warning:#F7A62B;
+// 辅助色-错误提醒/ 错误反馈/删除/危险
+$color-danger:#F4513B;
+// 二级文字信息
+$color-info:#959BA6;
+// 主要文字颜色
+$color-text-primary:#3D434D;
+// 主要文字颜色 轻色号-1级
+$color-text-primary-light:#3d434e;
+// 常规文字颜色
+$color-text-regular:#666F80;
+// 次要文字颜色
+$color-text-secondary:#959BA6;
+// 占位文字颜色
+$color-text-placeholder:#888888;
+// 白色系
+$color-white:#ffffff;
+// 黑色系
+$color-black:#000000;
+
+
+
+// Font Typography 字体相关内容
+
+// 标题文字大小
+$font-size-large:1.1rem;
+// 正文文字大小
+$font-size-base:0.9rem;
+// 正文（小）文字大小
+$font-size-small:0.8125rem;
+// 正文（小）文字大小
+$text-size-default:12px;
+// 正文（小）文字超小
+$text-size-xs:14px;
+// 正文（小）文字小
+$text-size-sm:16px;
+// 正文（小）文字中
+$text-size-md:18px;
+// 主要文字粗细
+$font-weight-primary:500;
+// 主要文字行高
+$font-line-height-primary:24px;
+
+
+
+// Button 按钮
+
+// 默认 颜色
+$button-default-color:#888;
+
+// 默认 背景悬浮颜色
+$button-default-background-hover:#F6F7F7;
+// 默认 背景悬浮颜色 active
+$button-default-background-active:#EFF0F1;
+// 主题色 文字颜色
+$button-primary-color:#3B86FF;
+// 主题色 1级浅色 文字颜色
+$color-primary-light:#3c86ff;
+// 主题色 2级浅色 文字颜色
+$color-primary-lighter:#3774EE;
+// 主题色 3级浅色 文字颜色
+$color-primary-lightest:#348BF5;
+// 主题色 鼠标悬浮时颜色
+$button-primary-hover:#5d9bff;
+// 主题色 激活颜色
+$button-primary-active:#5d9bff;
+// 主题色 朴素模式下颜色
+$button-primary-plain:#bbb;
+// 主题色 朴素主题禁止下颜色 
+$button-primary-disabled-plain:#e6e9ef;
+// 主题色 朴素悬浮颜色
+$button-primary-plain-hover:#EDF4FF;
+// 主题色 朴素激活颜色
+$button-primary-plain-active:#D3E2FA;
+
+// 默认 
+$button-default-color-text:#333752;
+$button-default-border-color: #d7dbec;
+// --- hover
+$button-default-hover-bg-color:#ecf2ff;
+$button-default-hover-border-color:#1E5EFF;
+// --- active
+$button-default-active-border-color:$button-default-hover-border-color;
+$button-default-active-bg-color:#d9e4ff;
+
+// 警告 按钮
+$button-warning-text-color:#F0142F;
+$button-warning-border-color: $button-warning-text-color;
+
+// --- hover
+$button-warning-hover-bg-color:#fde7ea;
+$button-warning-hover-border-color:$button-warning-border-color;
+// --- active
+$button-warning-active-bg-color:#fcd5d9;
+$button-warning-active-border-color:$button-warning-border-color;
+
+// 文本 按钮
+$button-text-text-color:$button-default-hover-border-color;
+$button-text-text-color-hover:#608dff;
+$button-text-text-color-active:#336dff;
+
+// 加载中
+
+// 禁用
+$button-disabled-bg-color:#eaecf5;
+$button-disabled-text-color:#a1a7c4;

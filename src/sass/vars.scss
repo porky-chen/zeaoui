@@ -1,0 +1,195 @@
+/*
+* 前端组件 提取公用样式
+*/
+
+/* Box-shadow
+-------------------------- */
+$--box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .04);
+$--box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .12);
+$--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+// 字体
+$--font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+$--family-yahei:'Microsoft YaHei';
+$--family-yahei-bold:'MicrosoftYaHei-Bold';
+// $font-weight-primary: 500;
+$font-weight-bold: 700;
+
+$color-primary-light-9: mix($color-white, $color-primary, 90%);
+
+/* Border
+-------------------------- */
+$--border-width-base: 1px;
+$--border-style-base: solid;
+$--border-style-dash: dashed;
+$--border-color-base: #dde2ee;
+$--border-base: $--border-width-base $--border-style-base $--border-color-base;
+$--border-base-dash: $--border-width-base $--border-style-dash $--border-color-base;
+
+
+$--border-color-light: #e4e7ed;
+$--border-color-lighter: #ebeef5;
+$--border-color-extra-light: #f2f6fc;
+$--border-color-hover: $color-text-placeholder;
+
+$--border-radius-small: 2px;
+$--border-radius-circle: 100%;
+$--border-radius-base: 4px;
+$--border-radius-middle: 5px;
+$--border-radius-lg: 8px;
+$--border-radius-xl: 10px;
+
+/* Font
+-------------------------- */
+$--font-path: 'fonts' !default;
+$--font-color-disabled-base: #666F80;
+$--font-line-height-primary: 24px;
+
+
+// padding
+$--padding-base:16px;
+
+
+// height
+$height-xs:24px;
+$height-md:32px;
+$height-lg:40px;
+$height-xl:48px;
+
+// icon大小
+$--icon-size-small: 14px;
+$--icon-size-base: 16px;
+
+//margin边距
+$--margin-base:20px;
+
+
+/* button按钮
+-------------------------- */
+
+// primary主题下颜色
+$--button-primary-color:$color-primary;
+
+/* font字体
+-------------------------- */
+// 单选框禁用背景
+$color-radio-disable-background: #f5f6fa;
+// 布局背景颜色
+$color-layout-background: #F6F7F9;
+// 表格背景颜色
+$color-table-background: #fafbfc;
+// 弹窗及页内布局标题 表格及表单字体颜色
+$color-title:$color-text-primary-light;
+// 布局顶部标题
+$color-layout-header:#404761;
+
+
+/* message 消息框
+-------------------------- */
+
+//消息框宽度
+$--message-min-width:770px;
+// 消息框高度
+$--message-height:48px;
+//内边距
+$--message-padding: $--padding-base;
+//icon字体大小
+$--message-icon-size: $--icon-size-base;
+
+
+// 主题色
+$--message-success-color: $color-success;
+$--message-warning-color: $color-warning;
+$--message-danger-color: $color-danger;
+$--message-primary-color: $color-primary;
+$--message-info-color: #e0ecff;
+
+
+/* message-box 消息框
+-------------------------- */
+
+// 消息框宽度
+$--messageBox-width:400px;
+// 消息框高度
+$--messageBox-height:216px;
+//icon字体大小
+$--messageBox-icon-size: 18px;
+// 消息框title颜色
+$--messageBox-title-color:$color-text-primary-light;
+
+
+/* date 日期选择器
+-------------------------- */
+$--date-height: $height-md;
+
+
+/* select下拉框
+-------------------------- */
+$select-dropdown-border-color:#eaedf1;
+$select-text-click-text-color:$color-primary-light;
+$select-text-click-bg-color:#E1EDFF;
+$select-text-hover-bg-color:#EDF4FC;
+$select-dropdown-height:36px;
+$select-dropdown-boxShadow-color:rgba(61, 67, 77, 0.1);
+$select-line-height:48px;
+$select-padding-horizontal:0 32px;
+$--select-border-color-hover: $color-primary-light;
+
+
+/* table列表
+-------------------------- */
+$--header-defalut-row-class-background:rgba(149, 155, 166, 0.12);
+$--table-filter-active-background:#E1EDFF;
+$--su-table-border: $--border-base;
+$--su-table-cell-padding: $--padding-base;
+$--su-table-color: $color-text-primary;
+$--su-table-head-bg-color: #E8F2FD;
+
+/* tabs切换
+-------------------------- */
+$--cards-tab-hover-color:#5e9bff;
+$--tab-button-active-color:rgba(60, 134, 255, 0.15);
+
+/* menu菜单
+-------------------------- */
+$--menu-item-color: $color-white;
+$--menu-item-color-active:#327EEE;
+$--menu-item-color-scrollbar:#f8f8f8;
+$--menu-item-color-scrollbar-thumb:$button-primary-plain;
+$--menu-item-color-scrollbar-thumb-hover:#999;
+$--menu-item-fill: #404761 !default;
+$--menu-item-active-color: #17FEF6 !default;
+$--menu-item-font-size: $font-size-base !default;
+$--menu-icon-size: 1rem !default;
+$--menu-width: 200px !default;
+$--menu-width-collapsed: 58px !default;
+$--menu-background: #11223E;
+
+
+/* su-layout
+--------------------------*/
+$--su-layout-space: 20px !default;
+$--su-layout-shadow: $--box-shadow-dark !default;
+$--su-layout-aside-width: 200px !default;
+
+/* su-app
+--------------------------*/
+$su-app-space: 20px !default;
+$su-app-logo-size: 28px !default;
+$su-app-header-height: 60px !default;
+$su-app-button-size: 1rem !default;
+$su-app-icon-size: 1.125rem !default;
+$su-app-title-size: 1.75rem !default;
+$su-app-footer-background: $color-primary-light-9 !default;
+$su-app-footer-font-size: 0.875rem !default;
+
+/* Form
+--------------------------*/
+$--form-item-margin-bottom: $--margin-base;
+
+
+/* su-dialog
+-------------------------*/
+$su-header-box-shadow: #edf0f6;

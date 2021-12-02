@@ -1,0 +1,39 @@
+$space-base: 10px !default;
+$spaces: (
+  no: 0,
+  xs: 0.4 * $space-base,
+  sm: 0.8 * $space-base,
+  md: 1.6 * $space-base,
+  lg: 2.4 * $space-base,
+  xl: 3.2 * $space-base
+);
+
+$font-size-base: .625rem !default;
+$font-sizes: (
+  xs: 1.4 * $font-size-base,
+  sm: 1.6 * $font-size-base,
+  md: 1.8 * $font-size-base,
+  lg: 2 * $font-size-base,
+  xl: 2.2 * $font-size-base
+);
+
+$shadow: 0 0 5px rgba(0, 0, 0, .2);
+
+$colors: (
+  black: #000000,
+  dark: #424242,
+  faded: #777777,
+  light: #bdbdbd,
+  white: #ffffff,
+  red: red,
+  green: green,
+  blue: blue,
+  lightblue: lightblue,
+  yellow: yellow,
+  pink: pink,
+  orange: orange,
+  purple: purple,
+);
+
+$z-top: 7000;
+$z-max: 9999;

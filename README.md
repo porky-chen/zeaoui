@@ -37,7 +37,7 @@ npm test
 ```
 
 ## 文件目录说明
-
+```bash
 ###########目录结构描述
 ├── Readme.md                   // help   
 ├── src                         // 组件代码src   
@@ -54,4 +54,22 @@ npm test
 ├── .eslintrc.js         
 ├── node_modules               // 加载包
 ├── package.json               // 包依赖项
-├── indexhtml                  // web静态资源加载      
+├── index.html                  // web静态资源加载      
+
+```
+## 上传npm
+```bash
+# 登录账号，验证邮箱
+npm login
+
+#更新版本
+npm version patch
+
+#发布npm官网
+npm publish --access public
+
+#撤包
+npm deprecate <pkg>[@<version>] <message>
+
+#root problems add --force
+```
