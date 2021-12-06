@@ -1,0 +1,62 @@
+// 禁止的颜色
+.el-radio__input.is-disabled
+  .el-radio__inner 
+    background-color: $color-radio-disable-background
+    border-color: #D7DBEC
+    cursor: not-allowed
+// 默认的颜色
+.el-radio__inner 
+    width: 16px
+    height: 16px
+    border: 1px solid $general50
+.el-radio__inner:hover
+  border: 1px solid $blue100
+
+// 校验框变色
+.el-form-item.is-error .el-radio__inner 
+  border: 1px solid #F32227
+
+// 选择的颜色
+.el-radio__input.is-checked 
+  .el-radio__inner
+    border-radius: 100%
+    width: 16px
+    height: 16px
+    background-color: $blue100
+    border: 1px solid $blue100
+    position: relative
+    cursor: pointer
+    display: inline-block
+    box-sizing: border-box
+
+  .el-radio__inner::after
+    width: 4px
+    height: 4px
+    border-radius: 100%
+    background-color: #ffffff
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%) 
+    transition: transform .15s ease-in
+
+// 选择禁止的颜色
+.el-radio__input.is-disabled.is-checked
+  .el-radio__inner
+    background-color: $general50
+    border-color: $general50
+    cursor: not-allowed
+  .el-radio__inner::after
+    width: 4px
+    height: 4px
+    border-radius: 100%
+    background-color: #ffffff
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%) 
+    transition: transform .15s ease-in
+
+
+  
+ 

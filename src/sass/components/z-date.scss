@@ -1,0 +1,176 @@
+.su-date {
+    .el-date-editor {
+      input {
+        // width: 100%;
+        //height: $--date-height;
+        line-height: $--date-height;
+        font-size: 13px;
+      }
+  
+      .el-range-separator {
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    .el-range-input {
+      background-color: transparent;
+    }
+  
+    .el-input__inner {
+      // height: $--date-height;
+      line-height: $--date-height;
+    }
+  
+    .el-input__icon {
+      line-height: $--date-height;
+    }
+  
+    .el-range__icon {
+      // line-height: 25px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .el-picker-panel__footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .el-range-editor.is-disabled, .el-range-editor.is-disabled input {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  
+  .el-year-table td .cell:hover,
+  .el-year-table td.today .cell,
+  .el-year-table td.current:not(.disabled) .cell,
+  .el-month-table td .cell,
+  .el-date-table td span {
+    border-radius: 4px;
+  }
+  
+  .el-year-table td.current:not(.disabled) .cell,
+  .el-month-table td.current:not(.disabled) .cell,
+  .el-date-table td.current:not(.disabled) span {
+    background-color: #68b3ff;
+  }
+  
+  .el-year-table td.today .cell,
+  .el-month-table td.today .cell,
+  .el-date-table td.today span {
+    border: 2px solid #3699ff;
+    color: #3699ff;
+  }
+  
+  .el-range-editor.is-active,
+  .el-month-table td .cell:hover,
+  .el-year-table td .cell:hover,
+  .el-date-table td.available:hover {
+    // background-color: #e8f4ff;
+    // border-radius: 4px;
+    // color: #3699ff;
+  }
+  
+  .el-date-table.is-week-mode .el-date-table__row.current div {
+    background-color: #E8F4FF;
+    color: #3699FF;
+  }
+  
+  .el-year-table td.current:not(.disabled) .cell,
+  .el-month-table td.current:not(.disabled) .cell,
+  .el-date-table td.start-date span, .el-date-table td.end-date span {
+    background-color: #68B3FF;
+    color: #ffffff;
+  }
+  
+  .el-month-table td.end-date div,
+  .el-date-table td.end-date div,
+  .el-date-table.is-week-mode .el-date-table__row td:last-child div,
+  .el-date-table.is-week-mode .el-date-table__row:hover td:last-child div {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .el-month-table td.start-date div,
+  .el-date-table td.start-date div,
+  .el-date-table.is-week-mode .el-date-table__row td:first-child div,
+  .el-date-table.is-week-mode .el-date-table__row:hover td:first-child div {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .el-month-table td.end-date div,
+  .el-date-table td.selected div {
+    background: #ffffff !important;
+  }
+  
+  .el-year-table td .cell:hover,
+  .el-month-table td.in-range div,
+  .el-month-table td.in-range div a,
+  .el-date-table.is-week-mode .el-date-table__row.current div,
+  .el-date-table td.in-range div {
+    background-color: #E8F4FF !important;
+    color: #3699FF;
+  }
+  
+  .su-date .el-input__inner {
+    height: 32px;
+  }
+  
+  .el-autocomplete .el-input__icon, .el-date-editor .el-input__icon {
+    line-height: 27px !important;
+  }
+  
+  .el-input__suffix-inner .el-input__icon,
+  .el-input__prefix .el-input__icon, .el-input__prefix .el-icon-date {
+    line-height: 32px !important;
+  }
+  
+  .el-month-table td.start-date .cell, .el-month-table td.end-date .cell {
+    color: #FFFFFF;
+    background-color: #68B3FF;
+  }
+  
+  .el-year-table td.current:not(.disabled) .cell,
+  .el-month-table td.start-date .cell, .el-month-table td.end-date .cell,
+  .current .cell {
+    color: #FFFFFF !important;
+    background-color: #68B3FF !important;
+    border-radius: 4px;
+  }
+  
+  .available {
+    cursor: default !important;
+  }
+  
+  .el-year-table td .cell:hover,
+  .available span {
+    cursor: pointer;
+  }
+  
+  .el-month-table td .cell:hover,
+  .available span:hover {
+    background-color: #e8f4ff;
+    border-radius: 4px;
+    color: #3699ff;
+  }
+  
+  .el-popper .popper__arrow {
+    visibility: hidden;
+  }
+  
+  .el-picker-panel.el-popper {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+  }
+  
+  .el-range-separator{
+      line-height: 24px !important;
+  }
+  .el-input__inner {
+    height: 32px;
+    line-height: 32px;
+}

@@ -1,0 +1,47 @@
+.el-tooltip__popper.is-dark
+  //background: $general90
+  //opacity: 0.7
+  background-color: rgba(51, 55, 82, 0.7)
+  color: #ffffff
+
+.el-tooltip__popper.is-dark[x-placement^=right] .popper__arrow
+  opacity: 0.7
+  border-right-color: rgba(51, 55, 82, 1)
+
+.el-tooltip__popper.is-dark[x-placement^=right] .popper__arrow:after
+  opacity: 0.7
+  border-right-color: rgba(51, 55, 82, 1)
+
+// 明亮主题
+.el-tooltip__popper.is-light
+  background: #FFFFFF
+  border: 1px solid #ffffff
+  box-shadow: 0px 0px 4px #cccccc
+  color: $general90
+  line-height: 20px
+  font-family: MicrosoftYaHei
+
+// light左边箭头颜色
+.el-tooltip__popper.is-light[x-placement^=left] .popper__arrow
+  border-left-color: #E6E6E6
+
+.el-tooltip__popper.is-light[x-placement^=left] .popper__arrow:after
+  border-left-color: #ffffff
+// light右边箭头颜色
+.el-tooltip__popper.is-light[x-placement^=right] .popper__arrow
+  border-right-color: #E6E6E6
+
+.el-tooltip__popper.is-light[x-placement^=right] .popper__arrow:after
+  border-right-color: #ffffff
+// light上边箭头颜色
+.el-tooltip__popper.is-light[x-placement^=top] .popper__arrow
+  border-top-color: #E6E6E6
+
+.el-tooltip__popper.is-light[x-placement^=top] .popper__arrow:after
+  border-top-color: #ffffff
+// light下边箭头颜色
+.el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow
+  border-bottom-color: #E6E6E6
+
+.el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow:after
+  border-bottom-color: #ffffff
