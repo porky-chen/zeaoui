@@ -1,3 +1,11 @@
+<!--
+ - All rights reserved.
+ - @author Zeao
+ - Description: z-button 按钮组件
+ - Changelog:
+ - Revision 1.0 2021-12-02  Zeao
+ - - 初始化
+ -->
 <script>
 import elButton from './button'
 
@@ -101,8 +109,6 @@ export default {
                 return '删除';
             case 'batchdel':
                 return '批量删除';
-            case 'batchadd':
-                return '批量新增';
             case 'cancel':
                 return '取消';
             case 'confirm':
