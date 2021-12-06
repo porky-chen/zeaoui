@@ -4,7 +4,8 @@
 
 ## 安装方式
 
-```
+```bash
+#npm
 npm install zeaoui --save
 ```
 
@@ -39,22 +40,25 @@ npm test
 ## 文件目录说明
 ```bash
 ###########目录结构描述
-├── Readme.md                   // help   
+├── README.md                   // 说明文档   
 ├── src                         // 组件代码src   
-   ├── main.js                 // 组件入口    
-   ├── assets                  // 资源文件夹 如果组件没有其对应的文件夹 资源放这个文件夹下
-   ├── components              // 组件代码文件夹  组件的代码放这个文件夹下  
-        ├── index.js           // 打包入口  
-   ├── App.vue                 // vue项目源
-├── .gitignore
-├── config                     // webpack.config.js配置文件
-├── build                      // webpack.config.js配置文件
-├── static                     // 静态文件
-├── test                       // 测试文件
-├── .eslintrc.js         
-├── node_modules               // 加载包
-├── package.json               // 包依赖项
+   ├── main.js                  // 组件入口    
+   ├── assets                   // 资源文件夹 如果组件没有其对应的文件夹 资源放这个文件夹下
+   ├── sass                     // sass样式文件夹  存放组件样式
+   ├── mixins                   // 公用方法文件夹 mixins引入vue页面
+   ├── components               // 组件代码文件夹  组件的代码放这个文件夹下  
+        ├── index.js            // 打包入口  
+   ├── App.vue                  // vue项目源
+├── .gitignore                  // 忽略文档
+├── config                      // webpack.config.js配置文件
+├── build                       // webpack.config.js配置文件
+├── static                      // 静态文件
+├── test                        // 测试文件
+├── .eslintrc.js                // eslin规则
+├── node_modules                // 加载包
+├── package.json                // 包依赖项
 ├── index.html                  // web静态资源加载      
+├── 更新说明.txt                 // 更新文档     
 
 ```
 ## 上传npm
@@ -72,4 +76,9 @@ npm publish --access public
 npm deprecate <pkg>[@<version>] <message>
 
 #root problems add --force
+```
+
+## 更新文档
+```bash
+#可查看-更新说明.txt
 ```
