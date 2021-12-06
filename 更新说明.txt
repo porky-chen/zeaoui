@@ -1,5 +1,8 @@
 ## 更新说明
 
 
-1.0.0  2021/12/2 Zeao
+1.0.0  2021/12/3 Zeao
 1：实现z-button功能,可通过buttonTepy实现部分常用按钮的简化icon和content,如新增，编辑，删除等
+2：实现z-radio功能,isNormalCheck(type:Blooean)可以控制是否开启默认选项，labelKey、valueKey自定义label和value名
+3：实现z-tooltip功能, slot="content"插桥修改内容区样式通过HTML代码,或content="内容" + popper-class="类名"结合修改字体样式
+4：实现z-date功能, 继承了el-date-picker所有特征，基础上做了样式的调整
