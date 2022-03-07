@@ -1,0 +1,34 @@
+.su-viewer-modal
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 9999
+  background-color: $color-white
+
+  .su-viewer.el-carousel .el-carousel__container
+    button .el-icon-arrow-left, button .el-icon-arrow-right
+      font-size: 17px
+    .el-carousel__arrow:hover
+      background-color: rgba(31, 45, 61, 0.37)
+
+  .su-viewer
+    .su-viewer-url
+      background-size: contain
+
+    .el-carousel__item
+      padding: 0
+      height: 100%
+
+      .el-card
+        height: 100%
+
+        .el-card__body
+          height: 100%
+
+          .su-viewer-url-wrapper
+            height: 100%
+
+            > div
+              height: 100%

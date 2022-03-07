@@ -1,0 +1,93 @@
+.el-scrollbar__bar
+  display: none
+
+.el-table th
+  height: 50px
+
+.el-table td
+  height: 44px
+
+  .cell
+    .el-button + .el-button
+      margin-left: 0
+
+// cell的内容padding
+.el-table td,
+.el-table th
+  font-size: $text-size-xs
+  font-family: $--font-family
+  color: $color-title
+  padding: 0 !important
+  border-color: $--border-color-base
+
+  .cell
+    padding-left: 12px
+    padding-right: 16px
+
+.el-table-column--selection
+  .cell
+    padding-left: 16px !important
+    padding-right: 16px !important
+
+.el-table th .cell
+  display: flex
+  flex-direction: row
+  word-break: keep-all
+  align-items: center
+
+.row-defalut-class
+  td,
+  th
+    background: $color-white
+
+
+.header-defalut-row-class td,
+.header-defalut-row-class th
+  font-weight: $font-weight-bold
+  background: $--header-defalut-row-class-background
+
+
+.el-table--striped .el-table__body tr.el-table__row--striped
+  background: $color-table-background
+
+
+.el-table--group,
+.el-table--border
+  border-color: $--border-color-base
+
+
+.el-checkbox__input .el-checkbox__inner::after
+  left: 50%
+  margin-left: -2px
+  top: 50%
+  margin-top: -5px
+
+.el-checkbox__input.is-indeterminate .el-checkbox__inner::before
+  top: 6px
+
+.su-tabele-tag
+  margin: 2px 0 2px 8px
+  display: inline-block
+  height: 32px
+  padding: 0 10px
+  line-height: 30px
+  font-size: 12px
+  box-sizing: border-box
+  white-space: nowrap
+  width: 58px
+  height: 32px
+
+.su-tabele-tag-primary
+  color: $color-primary
+
+.su-tabele-tag-success
+  color: $color-success
+
+.su-tabele-tag-warning
+  color: $color-warning
+
+.su-tabele-tag-danger
+  color: $color-danger
+
+.su-tabele-tag-info
+  color: $color-info

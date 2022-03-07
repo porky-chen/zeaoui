@@ -1,8 +1,27 @@
 ## 更新说明
 
+1.0.0  2022/3/7 Zeao
+1：封装z-table功能，简化了模块间使用的el-table代码量，支持colorTag、textColor、isIcon、showPhotos和slot插槽功能，也实现了table-header自定义通过v-slot:slotMultiple
+2：封装z-upload功能，简化封装了el-upload功能，对使用者更友好
+3：封装z-viewer-model功能，提供给已封装好工具类previewImages()使用，可以单独引入组件使用展示image、pdf
+4：封装z-pdf功能，支持展示pdf文件的容器
+5：封装z-viewer功能，组合ZViewerModel使用的预览功能
+
+提供utils工具类方法
+6：previewImages({imageList, previewIndex})方法，通过已封装好的image显示图片集合的预览
+7：isImage(url)方法，判断图片
+8：isPDF(url)方法，判断PDF
+9：previewFile({fileUrl, fileName})方法，文件预览，支持预览image和pdf
+
+提供common功能方法
+11：getLoading(options = {})，loading加载动画,通过可配置options显示loading
+12：getIEVersion()，查看浏览器版
+
+提供mixins功能
+13：filterAttributes(options),获取目标对象里的所需属性组成的对象
 
 1.0.0  2021/12/3 Zeao
-1：实现z-button功能,可通过buttonTepy实现部分常用按钮的简化icon和content,如新增，编辑，删除等
-2：实现z-radio功能,isNormalCheck(type:Blooean)可以控制是否开启默认选项，labelKey、valueKey自定义label和value名
-3：实现z-tooltip功能, slot="content"插桥修改内容区样式通过HTML代码,或content="内容" + popper-class="类名"结合修改字体样式
-4：实现z-date功能, 继承了el-date-picker所有特征，基础上做了样式的调整
+1：封装z-button功能,可通过buttonTepy实现部分常用按钮的简化icon和content,如新增，编辑，删除等
+2：封装z-radio功能,isNormalCheck(type:Blooean)可以控制是否开启默认选项，labelKey、valueKey自定义label和value名
+3：封装z-tooltip功能, slot="content"插桥修改内容区样式通过HTML代码,或content="内容" + popper-class="类名"结合修改字体样式
+4：封装z-date功能, 继承了el-date-picker所有特征，基础上做了样式的调整
