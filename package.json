@@ -1,6 +1,6 @@
 {
   "name": "zeaoui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端Vue组件库，基于 Element-UI 二次封装",
   "author": "Zeao",
   "license": "ZEAO",
@@ -40,7 +40,7 @@
     "element-ui": "^2.15.6",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "4.14.1",
     "sass": "^1.38.0",
     "sass-loader": "^7.3.1",
     "style-loader": "^1.3.0",
