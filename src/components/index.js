@@ -7,7 +7,7 @@ import ZUpload from "./z-upload/z-upload";
 
 // 导入方法
 import ZViewerModal from "./z-viewer-model";
-import utils from "../utils/utils"
+import utils from "../utils"
 
 const components = {
     // 注册组件
